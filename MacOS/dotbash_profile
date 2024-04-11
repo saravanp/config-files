@@ -1,0 +1,33 @@
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
+# Set iTerm Tab Title
+export PROMPT_COMMAND='echo -ne "\033]0;${HOSTNAME%%.*}\007"'
+
+# Set prompt
+export PS1="[\W]\\\$ "
+
+# CLI Colors
+export CLICOLOR=1
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+
+export EDITOR="vim"
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/saravan/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/saravan/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/saravan/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/saravan/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+conda activate py312
+
