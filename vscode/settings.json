@@ -1,0 +1,68 @@
+{
+    "editor.rulers": [
+        80
+    ],
+    "editor.minimap.enabled": false,
+    "editor.fontLigatures": true,
+    "explorer.confirmDelete": false,
+    "settingsSync.ignoredSettings" : [
+        "-vim.neovimPath",
+        "editor.fontFamily",
+        "editor.fontSize",
+        "terminal.integrated.fontFamily",
+        "terminal.integrated.fontSize",
+        "window.titleBarStyle",
+        "vim.useCtrlKeys",
+        "vim.handleKeys",
+        "vim.visualModeKeyBindingsNonRecursive",
+    ],
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontSize": 14,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.fontFamily": "Cascadia Code",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.scrollback": 100003,
+    "terminal.integrated.automationProfile.osx": null,
+    "terminal.integrated.inheritEnv": false,
+    "workbench.startupEditor": "none",
+    "vim.highlightedyank.enable": true,
+    "vim.enableNeovim": false,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": false,
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["ctrl+v"],
+            "commands": ["editor.action.toggleBlockSelection"]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-v>": true
+    },
+    "git.ignoreLegacyWarning": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.wordWrap": "on",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.autoSave": "afterDelay",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "redhat.telemetry.enabled": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.colorTheme": "Default Dark Modern",
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "editor.lineNumbers": "on",
+    "window.titleBarStyle": "custom",
+    "workbench.editor.enablePreview": false,
+    "workbench.settings.applyToAllProfiles": [],
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+}
