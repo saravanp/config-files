@@ -29,6 +29,9 @@
   "terminal.integrated.fontFamily": "'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.scrollback": 100003,
+  "terminal.integrated.commandsToSkipShell": [
+    "workbench.action.toggleSidebarVisibility"
+  ],
 
 
   "vim.useSystemClipboard": true,

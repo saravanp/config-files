@@ -7,5 +7,15 @@
     {
         "key": "ctrl+p",
         "command": "-workbench.action.quickOpen"
+    },
+    {
+      "key": "alt+b",
+      "command": "workbench.action.toggleSidebarVisibility",
+      "when": "terminalFocus"
+    },
+    {
+      "key": "alt+b",
+      "command": "workbench.action.toggleSidebarVisibility",
+      "when": "editorTextFocus"
     }
 ]
