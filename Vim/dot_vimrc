@@ -4,6 +4,8 @@ syntax on
 set nu
 set mouse=a
 
+set clipboard=unnamedplus
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -42,12 +44,12 @@ nnoremap <C-H> <C-W><C-H>
 
 set encoding=utf-8
 
-if has('gui_running')
-set background=dark
-colorscheme solarized
-else
-  colorscheme zenburn
-endif
+" if has('gui_running')
+" set background=dark
+" colorscheme solarized
+" else
+"   colorscheme zenburn
+" endif
 
 let g:airline#extensions#tabline#enabled = 1
 
